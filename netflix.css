@@ -1,0 +1,284 @@
+/*Roboto & Nunito Sans
+*/
+body{
+    background-image: url("Title-Image.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #141515;
+    color: white;
+    margin-left: 60px;
+    
+}
+
+.upper-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.netflix-logo{
+    padding: 5px;
+}
+
+
+
+.left-head{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Nunito Sans';
+    align-content: center ;
+    flex-wrap: wrap;
+}
+.item-left-head{
+    padding: 10px;
+}
+
+
+.right-head{
+    display: flex;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+.item-right-head{
+    padding: 10px;
+}
+
+
+    
+
+img.netf{
+    height: 30px;
+    width: 100px;
+}
+
+img.n-logo{
+    height: 40px;
+    width: 20px;
+}
+
+
+
+
+.seeAgain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 190px;
+    font-family: 'Nunito Sans';
+    flex-wrap: wrap;    
+}
+.see1 img{
+    height: 14px;
+}
+.see1 p{
+    font-size: 20px;
+}
+.see2{
+    display: flex;
+
+}
+.seeTiles{
+    padding-right: 15px;
+}
+.seeTiles img{
+    height: 168px; 
+    width: 300px;
+}
+
+
+
+.Top10{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans';
+}
+.to1 p{
+    font-size: 20px;
+}
+.to1 img{
+        height: 14px;
+}
+.to2{
+    display: flex;
+    margin-left: -60px;
+
+    
+}
+.top{
+    display: flex;
+    padding-right: 15px;
+}
+.top img{
+    height: 200px;
+}
+
+
+
+.trendingNow{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans';
+}
+.t1 p{
+    font-size: 20px;
+}
+.t1 img{
+    height: 14px;
+}
+.t2{
+    display: flex;
+
+}
+.trend{
+    padding-right: 15px;
+}
+
+
+
+
+
+.Sci-fi{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans';
+}
+.s1 p{
+    font-size: 20px;
+}
+.s1 img{
+    height: 14px;
+}
+.s2{
+    display: flex;
+
+}
+.sci{
+    padding-right: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #6a6a6b;
+}
+.social-nav img{ 
+    height: 30px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+.paly img{
+    height: 10px;
+}
+.paly{
+    background-color: white;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: 500;
+}
+.paly:hover{
+    opacity: 0.2;
+}
+button.moreinfo{
+    
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid white;
+    opacity: 0.3;    
+    font-weight: 500;
+}
+button.moreinfo:hover{
+    opacity: 1;
+}
+.moreinfo img{
+    height: 10px;
+}
+
+.main-pic{
+    margin-top: 400px;
+}
+img.n-logo{
+    height: 100%;
+    
+}
+
+.button button{
+    padding: 15px;
+    background-color:#141515; 
+    color: #6a6a6a; 
+    border: 1px solid #6a6a6a;
+}
+
+
+
+span{
+    font-size: 20px;
+    text-align: center;
+    position: 10px 10px;
+    
+}
+
+.maid{
+    font-size: 120px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+
+.log{
+    display: flex;
+
+    align-items: center;
+    margin-bottom: -20px;
+}
+.n-show{
+    margin-right: 10px;
+}
+
+
+
+@media screen and (max-width : 900px){
+        .main{
+            flex-wrap: wrap;
+        }
+        .to2{
+            
+            flex-wrap: wrap;
+        }
+        
+        .t2{
+            
+            flex-wrap: wrap;
+        }
+        
+        .log{
+            top: 150px;
+        }
+
+        .see2{
+            
+            flex-wrap: wrap;
+        }
+
+        .s2{
+            
+            flex-wrap: wrap;
+        }
+} 
