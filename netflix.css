@@ -13,7 +13,6 @@ body{
 .upper-header{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .netflix-logo{
@@ -24,27 +23,52 @@ body{
 
 .left-head{
     display: flex;
+    flex-wrap: wrap;
     font-size: 20px;
     font-family: 'Nunito Sans';
     align-content: center ;
-    flex-wrap: wrap;
 }
-.item-left-head{
+.netflix-logo{
     padding: 10px;
 }
+.Start{
+    padding: 10px;
+}
+.Shows{
+    padding: 10px;
+}
+.Movies{
+    padding: 10px;
+}
+.New{
+    padding: 10px;
+}
+.MyList{
+    padding: 10px;
+}
+
 
 
 .right-head{
     display: flex;
     margin-right: 20px;
-    flex-wrap: wrap;
 }
-.item-right-head{
+.search{
+    padding: 10px;
+}
+.gift{
+    padding: 10px;
+}
+.notification{
+    padding: 10px;
+}
+.account{
+    padding: 10px;
+}
+.dropdown{
     padding: 10px;
 }
 
-
-    
 
 img.netf{
     height: 30px;
@@ -61,28 +85,29 @@ img.n-logo{
 
 .seeAgain{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 190px;
-    font-family: 'Nunito Sans';
-    flex-wrap: wrap;    
-}
-.see1 img{
-    height: 14px;
-}
-.see1 p{
-    font-size: 20px;
+    font-family: 'Nunito Sans';    
 }
 .see2{
     display: flex;
-
 }
-.seeTiles{
+.Snowpiercer{
     padding-right: 15px;
 }
-.seeTiles img{
-    height: 168px; 
-    width: 300px;
+.sense8{
+    padding-right: 15px;
 }
+.anotherlife{
+    padding-right: 15px;
+}
+.Lastkingdom{
+    padding-right: 15px;
+}
+.MoneyHeist{
+    padding-right: 15px;
+}
+
 
 
 
@@ -91,24 +116,30 @@ img.n-logo{
     flex-direction: column;
     font-family: 'Nunito Sans';
 }
-.to1 p{
-    font-size: 20px;
-}
-.to1 img{
-        height: 14px;
-}
 .to2{
     display: flex;
     margin-left: -60px;
 
-    
 }
-.top{
+.redNotice{
     display: flex;
     padding-right: 15px;
 }
-.top img{
-    height: 200px;
+.JasonBourne{
+    display: flex;
+    padding-right: 15px;
+}
+.SquidGame{
+    display: flex;
+    padding-right: 15px;
+}
+.CI{
+    display: flex;
+    padding-right: 15px;
+}
+.Hellbound{
+    display: flex;
+    padding-right: 15px;
 }
 
 
@@ -118,41 +149,20 @@ img.n-logo{
     flex-direction: column;
     font-family: 'Nunito Sans';
 }
-.t1 p{
-    font-size: 20px;
-}
-.t1 img{
-    height: 14px;
-}
+
 .t2{
     display: flex;
-
 }
-.trend{
-    padding-right: 15px;
-}
-
-
-
-
 
 .Sci-fi{
     display: flex;
     flex-direction: column;
     font-family: 'Nunito Sans';
 }
-.s1 p{
-    font-size: 20px;
-}
-.s1 img{
-    height: 14px;
-}
+
 .s2{
     display: flex;
 
-}
-.sci{
-    padding-right: 15px;
 }
 
 .footer{
@@ -162,9 +172,6 @@ img.n-logo{
     margin-top: 50px;
     margin-left: 100px;
     color: #6a6a6b;
-}
-.social-nav img{ 
-    height: 30px;
 }
 
 .navigation{
@@ -181,9 +188,7 @@ h1{
     font-size: 100px;
     color: white;
 }
-.paly img{
-    height: 10px;
-}
+
 .paly{
     background-color: white;
     padding: 10px;
@@ -207,9 +212,7 @@ button.moreinfo{
 button.moreinfo:hover{
     opacity: 1;
 }
-.moreinfo img{
-    height: 10px;
-}
+
 
 .main-pic{
     margin-top: 400px;
@@ -219,12 +222,7 @@ img.n-logo{
     
 }
 
-.button button{
-    padding: 15px;
-    background-color:#141515; 
-    color: #6a6a6a; 
-    border: 1px solid #6a6a6a;
-}
+
 
 
 
@@ -253,32 +251,67 @@ span{
 }
 
 
-
-@media screen and (max-width : 900px){
-        .main{
-            flex-wrap: wrap;
-        }
-        .to2{
-            
-            flex-wrap: wrap;
-        }
+@media screen and (min-width:760px){
+    body{
+        background-image: url("Title-Image.png");
+        background-repeat: no-repeat;
         
-        .t2{
-            
-            flex-wrap: wrap;
-        }
+        background-color: #141515;
+        color: white;
+     
         
-        .log{
-            top: 150px;
-        }
+    }
+    
 
-        .see2{
-            
-            flex-wrap: wrap;
-        }
+   
 
-        .s2{
-            
-            flex-wrap: wrap;
-        }
-} 
+
+
+    .netflix-logo {
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+   
+
+    .main-pic {
+        margin-top: 200px; /* Adjust margin for better placement */
+    }
+
+    .paly,
+    .moreinfo {
+        width: 100%; /* Make buttons full width for better touch interaction */
+    }
+
+    
+
+    .seeAgain,
+    .Top10,
+    .trendingNow,
+    .Sci-fi {
+        margin-top: 50px; /* Adjust margin for better spacing between sections */
+    }
+
+    .see2,
+    .to2,
+    .t2,
+    .s2 {
+        flex-wrap: wrap; /* Allow flex items to wrap for smaller screens */
+    }
+
+    
+
+    .redNotice,
+    .JasonBourne,
+    .SquidGame,
+    .CI,
+    .Hellbound {
+    
+        padding-right: 0; /* Remove right padding for full width */
+    }
+
+    .paly{
+        width: 100px;
+    }
+
+
+}
